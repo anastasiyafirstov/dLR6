@@ -73,7 +73,7 @@ git merge branchone
 10. Побочная ветка удалена после успешного слияния:
 
 ```
-git branch -d new_branch
+git branch -d branchone
 ```
 
 ![image](https://github.com/user-attachments/assets/b1e8431c-31ff-49d5-b161-906479c0a941)
@@ -106,9 +106,31 @@ git revert ceafa69
 
 
 13. Создана отдельная ветка для оформления отчёта:
+
+```
+git checkout -b report
+```
+
+![image](https://github.com/user-attachments/assets/b9dcc5dd-c980-453d-a972-7b08b4c225de)
+
+
 14. Отчёт оформлен в файле README.md с использованием markdown синтаксиса, cкриншоты консоли и сторонних программ добавлены в отдельную папку screen.
 15. Получена история операций с сокращённым хэшем, датой, именем автора и комментарием:
+
+```
+git log --pretty=format:"%h - %ad - %an - %s" --date=short
+```
+
+![image](https://github.com/user-attachments/assets/4ac914db-86e3-4044-bf5a-0cd9ea6f9483)
+
 16. Локальные изменения отправлены в удалённый репозиторий на GitHub:
+
+```
+git push origin report
+```
+
+![image](https://github.com/user-attachments/assets/b153d6db-e015-4f2c-86a9-c79133636134)
+
 
 Вывод:
 
