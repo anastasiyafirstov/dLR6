@@ -46,11 +46,30 @@ git log --oneline
 ![image](https://github.com/user-attachments/assets/17076a60-1956-446a-923b-2a03ba290492)
 
 
-8. Последние изменения просмотрены с помощью команды:
+8. Последние изменения просмотрены с помощью команды (изменений много, в качестве примера предоставила один скриншот):
 
+```
 git log -p 
+```
+
+![image](https://github.com/user-attachments/assets/aed57671-68c6-4b76-a632-0aa4227067f6)
+
 
 9. Ветка с изменениями была слита в ветку master:
+
+```
+git checkout -b branchone
+git add .
+git commit -m "Изменение файла 1"
+git checkout master
+git merge branchone
+```
+
+![image](https://github.com/user-attachments/assets/38f3414b-5d0c-42cc-a542-e3958480bc9d)
+![image](https://github.com/user-attachments/assets/56e9d11d-f951-4333-9bf8-7e74be636a03)
+
+
+
 10. Побочная ветка удалена после успешного слияния:
 11. Сделаны несколько изменений и зафиксированы с комментариями:
 12. Выбран нужный коммит, выполнен откат:
