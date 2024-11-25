@@ -87,13 +87,24 @@ git commit -m "Изменение файла 2"
 
 ![image](https://github.com/user-attachments/assets/b161107a-5dd1-4cf9-a141-912a6f26a335)
 
-```git add .
+```
+git add .
 git commit -m "Изменение файла 3"
 ```
 
 ![image](https://github.com/user-attachments/assets/c689235d-a0fd-4700-b915-060e981e1c3d)
 
 12. Выбран нужный коммит, выполнен откат:
+
+```
+git log --oneline
+git revert ceafa69
+```
+
+![image](https://github.com/user-attachments/assets/81f22810-6ccb-4eee-ae92-210665c48c52)
+![image](https://github.com/user-attachments/assets/44fc7080-9043-46a9-affc-b815e1ce2eba)
+
+
 13. Создана отдельная ветка для оформления отчёта:
 14. Отчёт оформлен в файле README.md с использованием markdown синтаксиса, cкриншоты консоли и сторонних программ добавлены в отдельную папку screen.
 15. Получена история операций с сокращённым хэшем, датой, именем автора и комментарием:
