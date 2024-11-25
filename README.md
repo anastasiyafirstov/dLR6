@@ -12,7 +12,7 @@
 3. Установлен Git с официального сайта.
 4. Настроен Git, добавлено имя пользователя и email:
 5. 
-```git config --global user.name "В3441 Фирстова Анастасия Денисовна"
-git config --global user.email "firstova03102005@gmail.com"```
+git config --global user.name "В3441 Фирстова Анастасия Денисовна"
+git config --global user.email "firstova03102005@gmail.com"
 
 ![image](https://github.com/user-attachments/assets/e1ef8bdf-1c99-4abe-99f8-663e487c0418)
