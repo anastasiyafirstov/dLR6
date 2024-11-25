@@ -71,7 +71,28 @@ git merge branchone
 
 
 10. Побочная ветка удалена после успешного слияния:
+
+```
+git branch -d new_branch
+```
+
+![image](https://github.com/user-attachments/assets/b1e8431c-31ff-49d5-b161-906479c0a941)
+
+
 11. Сделаны несколько изменений и зафиксированы с комментариями:
+
+```git add .
+git commit -m "Изменение файла 2"
+```
+
+![image](https://github.com/user-attachments/assets/b161107a-5dd1-4cf9-a141-912a6f26a335)
+
+```git add .
+git commit -m "Изменение файла 3"
+```
+
+![image](https://github.com/user-attachments/assets/c689235d-a0fd-4700-b915-060e981e1c3d)
+
 12. Выбран нужный коммит, выполнен откат:
 13. Создана отдельная ветка для оформления отчёта:
 14. Отчёт оформлен в файле README.md с использованием markdown синтаксиса, cкриншоты консоли и сторонних программ добавлены в отдельную папку screen.
