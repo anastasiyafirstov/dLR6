@@ -25,10 +25,31 @@ git config --global user.email "firstova03102005@gmail.com"
 git clone https://github.com/anastasiyafirstov/dLR6
 ```
 
+![image](https://github.com/user-attachments/assets/a2af5f01-c4a1-4e76-9846-b2a1759e5503)
+
 
 6. Новый файл был добавлен через интерфейс GitHub, изменения подтянуты в локальный репозиторий:
+
+```
+git pull
+```
+
+![image](https://github.com/user-attachments/assets/cd8639d2-9416-4b7c-993a-e1541bc634bd)
+
+
 7. Получена история операций для каждой из веток:
+
+```
+git log --oneline
+```
+
+![image](https://github.com/user-attachments/assets/17076a60-1956-446a-923b-2a03ba290492)
+
+
 8. Последние изменения просмотрены с помощью команды:
+
+git log -p 
+
 9. Ветка с изменениями была слита в ветку master:
 10. Побочная ветка удалена после успешного слияния:
 11. Сделаны несколько изменений и зафиксированы с комментариями:
