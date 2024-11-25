@@ -11,3 +11,4 @@
 2. Сделана копия (Fork) репозитория с исходного репозитория по адресу: (https://github.com/Kurtyanik/LR6).
 3. Установлен Git с официального сайта.
 4. Настроен Git, добавлено имя пользователя и email:
+![image](https://github.com/user-attachments/assets/e1ef8bdf-1c99-4abe-99f8-663e487c0418)
